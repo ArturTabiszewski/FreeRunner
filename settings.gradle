@@ -1,0 +1,4 @@
+if (System.getenv('ARCHITECTURE') != 'arm')
+	include 'core', 'desktop', 'android', 'ios', 'html'
+else
+	include 'core', 'desktop'
